@@ -24,7 +24,7 @@ def loadingScreen():
         progress_bar(i, total, prefix='Progress:', suffix='Complete', length=50)
         time.sleep(0.01)
 
-directory = '/Users/chironk/Desktop/Programming/Python/Python Programs/Data Manimpulation/Records/'
+directory = '/Users/chironk/Desktop/Programming/Python/Python Programs/Data Manimpulation/Records/' # Customize the Path according to your needs
 
 while True:
     usrPrompt = print("Would you like to Add, Edit/View, Delete File? ")
